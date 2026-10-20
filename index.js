@@ -3,7 +3,7 @@
 //array with hamburger and cheeseburger has been created and initialized 
 const burgers = [`Hamburger`,`Cheeseburger`];
 // verifies drkins has been creates and initialised 
-let featuredDrink = `Strawberry milkshake`;
+let featuredDrink = `Strawberry Milkshake`;
 
 //* fuction and scope 
 function addBurger() {
@@ -14,10 +14,10 @@ function addBurger() {
 }
 
 //Variable declaration and Scope (Block scope)
-if(true) {
-const newBurgers = `Maple Bacon Burger `;
+if (true) {
+const anotherNewBurger = `Maple Bacon Burger `;
 // Use the .push()array method to add anotherNewburger to the burgers array 
-burgers.push(newBurgers);
+burgers.push(anotherNewBurger);
 
 }
  //changing of string functions 
